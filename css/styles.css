@@ -6,6 +6,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Kanit;
 }
 header{
     background-color: rgba(0, 42, 255, 0.186);
@@ -23,7 +24,18 @@ header{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+}
+.img{
+    display: flex;
+    width: 200px;
+    justify-content: end;
+    margin: 0;
+}
+img{
+    width: 50px;
+    margin: 0;
 }
 h1{
     margin: 0;
@@ -35,7 +47,7 @@ h3{
     font-size: 0.9em;
     text-align: start;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 80%;
 }
 p{
@@ -44,7 +56,7 @@ p{
     width: 80%;
 }
 form{
-    width: 85%;
+    width: 80%;
     margin: 0;
     padding: 0;
     height: 55%;
@@ -76,4 +88,15 @@ button{
 }
 button:hover{
     background-color: rgb(121, 150, 255);
+}
+.texto-form{
+    width: 80%;
+}
+.texto-form p{
+    width: 100%;
+    text-align: center;
+}
+p strong{
+    font-weight: bold;
+    fon
 }
